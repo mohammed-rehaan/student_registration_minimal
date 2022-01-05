@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/student_registration.css" />
+<!-- <link rel="stylesheet" href="/student_registration.css" /> -->
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1><p class="paratext">Student registration form</p></h1>
+      <form method="POST" class="registrationForm">
+        <input
+          type="text"
+          class="form"
+          name="fname"
+          placeholder="Enter full name"
+          required
+        />
+        <input
+          type="text"
+          class="form"
+          name="vtunumber"
+          placeholder="Enter your USN number"
+          maxlength="10"
+          minlength="10"
+          required
+        />
+
+        <input
+          type="text"
+          class="form"
+          name="address"
+          placeholder="Enter your address"
+          required
+        />
+
+        <input
+          type="number"
+          class="form"
+          name="year"
+          placeholder="Admission year"
+          required
+        />
+
+        <input
+          type="number"
+          class="form"
+          name="cgpa"
+          step="0.01"
+          placeholder="Previous semester CGPA(if present)"
+        />
+
+        <input
+          type="text"
+          class="form"
+          name="sslc"
+          placeholder="SSLC registration number"
+        />
+
+        <input
+          type="text"
+          class="form"
+          name="puc"
+          placeholder="PUC registration number"
+        />
+        <input
+          type="number"
+          class="form"
+          name="phonenumber"
+          placeholder="Enter your phone number"
+          required
+        />
+        <button class="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
